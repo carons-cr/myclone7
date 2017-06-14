@@ -1,6 +1,6 @@
 module.exports = function main(email, suffixes) {
            var postfixArray = new Array();
-    	   postfixArray=suffixs;
+    	   postfixArray=suffixes;
     	   var suffix;  	   
     	   var index=email.lastIndexOf('@');
     	   if(index!=-1){
